@@ -1,0 +1,778 @@
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: Bodoni MT;
+}
+
+#navbars{
+	width: 100%;
+	margin-top: 37px;
+	position: fixed;
+	z-index: 1;
+}
+
+/*.modal{
+	overflow-y: auto; 
+}
+*/
+/*.navbar-header{
+	padding: 0 0 0 0;
+}*/
+
+/*fit image inside navbar*/
+.navbar-brand>img{
+		position: absolute;
+		top: 0;
+		left: 20;
+		height: 50px;
+		width: 70px;
+	}
+/*remove horizontal scroll*/
+	html, body{
+		max-width: 100%;
+		overflow-x: hidden; 
+	}
+	/*---------------------------*/
+
+*{
+	box-sizing: border-box;
+}
+
+/*home page*/
+
+#content h2{
+	font-family: Bodoni MT;
+	font-size: 40px;
+}
+
+#content hr{
+	border: 1px solid black; 
+	opacity: 0.2;
+	width: 50%;
+}
+
+#mos_course hr{
+	border: 1px solid black; 
+	opacity: 0.2;
+	width: 50%;
+}
+
+#home_slogan .img{
+	height:780px;
+	width: 100%;
+}
+
+#first_content hr{
+	border: 1px solid black; 
+	opacity: 0.2;
+	width: 50%;
+}
+
+#content .col-md-4{
+	 border: 1px solid black;
+	 padding: 0;
+}
+
+#content .col-md-12{
+	padding: 0;
+}
+
+#content #img_pic{
+	height: 300px;
+	width: 100%;
+}
+
+#banner{
+	background: #2B3D97;
+	padding: 5px 0 2px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+
+}
+
+#btnMenucont{
+	background: #2B3D97;
+	padding: 0 0 2px;
+	width: 100%;
+	z-index: 1;
+	position: fixed;
+	display: none;
+}
+
+#banner .col-md-4 p{
+	color: white;
+	text-align: center;
+}
+
+#banner .col-md-4 img{
+	height: 15px;
+	width: 19px;
+	display: inline-block;
+}
+
+#banner .col-md-4 img:hover{
+	cursor: pointer;
+}
+
+ul.imgfading li{
+	list-style: none;
+	top: 0;
+	left: 0;
+	position: absolute;
+	margin-top: 88px;
+}
+
+#home_slogan ul img{
+	border: none;
+}
+
+#mainNav .dropdown-menu li a{
+	color: white;
+	transition: background .5s ease-in-out;
+}
+
+#mainNav .dropdown-menu li a:hover{
+	background: black;
+	color: white;
+
+}
+
+#mainNav .dropdown-menu{
+	background: #303031;	
+}
+
+#mainNav .dropdown-menu li{
+	border-bottom: 1px solid white;
+}
+
+
+
+#content .col-md-2{
+	padding: 0;
+}
+
+/*-----------------------------*/
+
+/*contact page*/
+#cont_title{
+	margin-top: 100px;
+}
+
+#contact hr{
+	border: 1px solid black; 
+	opacity: 0.2;
+	width: 50%;
+}
+
+#map{
+	width: 100%;
+	height: 450px;
+}
+
+#sucess_page{
+	background: linear-gradient(132deg, #3169C8, #61EEF1);
+	background-size: 400% 400%;
+	font-family: Arial;
+	font-size: 20px;
+	color: white;
+	padding: 50px;
+	margin-top: 150px;
+	border-radius: 50px;
+
+}
+
+#count{
+	font-weight: bolder;
+	color: #F1D012;	
+}
+/*end here*/
+/*------------*/
+
+/*4yrcourse page*/
+
+#fouryr_content{
+	margin-top: 85px;
+	font-family: Bodoni MT;
+	font-size: 16px;
+}
+
+#fouryr_content hr{
+	border: 1px solid black; 
+	opacity: 0.2;
+	width: 50%;
+}
+
+#fouryr_content img{
+	width: 100%;
+	height: 200px;
+}
+
+/*-------------------*/
+
+
+/*6mos course*/
+
+#mos_course{
+	margin-top: 80px;
+	font-family: Bodoni MT;
+	font-size: 18px;
+}
+
+/*---------------------*/
+
+/*mission page*/
+#mission_content{
+	margin-top: 80px;
+	font-family: Bodoni MT;
+}
+
+#mission_content h1{
+	color: #B6B80F;
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+#mission_content p{
+	font-size: 20px;
+}
+
+#mission_content h3{
+	font-size: 30px;
+}
+
+#mission_content ul li{
+	font-size: 20px;
+}
+
+/*vision page*/
+#vision_content{
+	margin-top: 80px;
+	font-family: Bodoni MT;
+}
+
+#vision_content h1{
+	color: #B6B80F;
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+#vision_content p{
+	font-size: 20px;
+}
+
+#vision_content h3{
+	font-size: 30px;
+}
+
+#vision_content ul li{
+	font-size: 20px;
+}
+
+/*academics page*/
+#acad{
+	margin-top: 80px;
+	font-family: Bodoni MT;
+}
+
+#acad p{
+	font-size: 18px;
+}
+
+#acad img{
+	width: 100%;
+	height: 260px;
+}
+
+#acad hr{
+	border: 1px solid black; 
+	opacity: 0.2;
+	width: 50%;
+}
+
+/*------------------*/
+
+
+/*tvl page*/
+#tvlTracks{
+	margin-top: 80px;
+	font-family: Bodoni MT;
+}
+
+#tvlTracks p{
+	font-size: 18px;
+}
+
+/*--------------------*/
+
+/*cybernetics page*/
+#cyber{
+	margin-top: 80px;
+	font-family: Bodoni MT;
+}
+
+#cyber p{
+	font-size: 18px;
+}
+
+#pwan{
+	text-indent: 50px;
+}
+
+#cyber img{
+	width: 100%;
+	height: 330px;
+}
+
+
+/*-----------------------*/
+
+/*gallery*/
+
+/*for slider*/
+
+/* Position the image container (needed to position the left and right arrows) */
+.container1 {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides1 {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext1 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container1 {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column1 {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo1 {
+  opacity: 0.6;
+}
+
+.active,
+.demo1:hover {
+  opacity: 1;
+}
+
+
+.mySlides1 img{
+	width: 100%;
+	height: 500px;
+	border: 2px solid blue;
+}
+
+/*-----------*/
+/*end here*/
+
+
+
+
+/*slick slider*/
+.slider {
+        width: 100%;
+        margin: 10px auto;
+    }
+.slider img{
+	height: 100px;
+}
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+/*
+  .slick-prev:after {
+  content: "<";
+  color: black;
+  margin-left: -30px;
+  font-size: 30px;
+}
+
+.slick-next:before {
+  content: ">";
+  color: black;
+  font-size: 30px;
+  margin-right: -60px;
+  font-weight: bolder;
+}*/
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      /*opacity: .2;*/
+    }
+    
+ /*   .slick-active {
+      opacity: .5;
+    }*/
+
+    .slick-current {
+      opacity: 1;
+    }
+/*-----*/
+
+#first_content{
+	margin-top: 80px;
+}
+
+/*----------------------*/
+
+/*------------------*/
+
+@media only screen and (min-width: 320px){
+	#btnMenucont{
+		display: none;
+	}
+
+	#banner{
+		display: none;
+	}
+
+	#navbars{
+		position: fixed;
+		margin-top: 0;
+		width: 100%;
+	}
+
+	#home_slogan .imgfading img{
+		width: 100%;
+		margin-top: -38px;
+		height: 100vh;
+	}
+
+	
+	#footer h4{
+		font-size: 14px;
+	}
+
+	#first_content img{
+		height: 280px;
+	}
+
+	#first_content h2{
+		font-size: 20px;
+	}
+
+	#cyber h1{
+		font-size: 30px;
+	}
+
+	#cyber img{
+		height: 200px;
+	}
+
+	#mission_content{
+		margin-top: 50px;
+	}
+
+	#vision_content{
+		margin-top: 50px;
+	}
+
+	#sucess_page{
+		margin-top: 10px;
+		border-radius: 0;
+	}
+
+	#sucess_page p{
+		font-size: 16px;
+	}
+
+	#fouryr_content{
+		margin-top: 40px;
+	}
+
+	#mos_course{
+		margin-top: 40px;
+	}
+
+	#acad{
+		margin-top: 40px;
+	}
+
+	#acad h1{
+		font-size: 25px;
+	}
+
+	#acad h2{
+		font-size: 20px;
+	}
+
+	#tvlTracks{
+		margin-top: 40px;
+	}
+
+	#tvlTracks h1{
+		font-size: 25px;
+	}
+
+	#tvlTracks h2{
+		font-size: 20px;
+	}
+
+	#cyber{
+		margin-top: 40px;
+	}
+
+	#cyber h1{
+		font-size: 23px;
+	}
+
+	#first_content .container1 img{
+		height: 250px;
+	}
+
+	.regular .col-md-2 img{
+		height: 80px;
+	}
+
+	#contact{
+		margin-top: -40px;
+	}
+}
+
+@media only screen and (min-width: 375px){
+	#btnMenucont{
+		display: none;
+	}
+
+	#banner{
+		display: none;
+	}
+
+	#navbars{
+		margin-top: 0;
+		width: 100%;
+		position: fixed;
+	}
+
+	#home_slogan .imgfading img{
+		height: 100vh;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 414px){
+	#btnMenucont{
+		display: none;
+	}
+
+	#banner{
+		display: none;
+	}
+
+	#navbars{
+		margin-top: 0;
+		width: 100%;
+		position: fixed;
+	}
+
+	#home_slogan .imgfading img{
+		height: 100vh;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 568px){
+	#fouryr_content .item img{
+		width: 100%;
+		height: 190px;
+	}
+
+	#fouryr_content .carousel{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#mos_course .item img{
+		width: 100%;
+		height: 190px;
+	} 
+
+	#mos_course .carousel{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#acad .item img{
+		width: 100%;
+		height: 190px;
+	}
+
+	#acad .carousel{
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#tvlTracks .item img{
+		width: 100%;
+		height: 190px;
+	}
+
+	#tvlTracks .carousel{
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#cyber .item img{
+		width: 100%;
+		height: 190px;
+	}
+
+	#cyber .carousel{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#cyber h1{
+		font-size: 28px;
+	}
+}
+
+@media only screen and (min-width: 667px){
+	#cyber h1{
+		font-size: 35px;
+	}
+
+	#footer h4{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 736px){
+	#sucess_page p{
+		font-size: 20px;
+	}
+
+	#footer h4{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 812px){
+	#fouryr_content p{
+		font-size: 20px;
+	}
+
+	#mos_course p{
+		font-size: 20px;
+	}
+
+	#mos_course ul{
+		font-size: 20px;
+	}
+
+	#acad p{
+		font-size: 20px;
+	}
+
+	#acad h1{
+		font-size: 35px;
+	}
+
+	#acad h2{
+		font-size: 30px;
+	}
+
+	#tvlTracks p{
+		font-size: 20px;
+	}
+
+	#tvlTracks h1{
+		font-size: 35px;
+	}
+
+	#tvlTracks h2{
+		font-size: 30px;
+	}
+
+	#cyber p{
+		font-size: 20px;
+	}
+
+	#first_content h2{
+		font-size: 35px;
+	}
+
+	#footer h4{
+		font-size: 18px;
+	}
+
+	/*stop at media query 812px landscape galler or footer*/
+}
